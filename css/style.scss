@@ -72,15 +72,19 @@ body {
   margin: 2% 2% 2% 0;
 }
 
-#comparison {
+#comparison img {
   float: right;
   margin-top: 5%;
+  max-width: 100%;
+  height: auto;
 }
 
-#xerxes {
+#xerxes img {
   float: left;
   margin-top: 5%;
   margin-right: 2%;
+  max-width: 100%;
+  height: auto;
 }
 
 #quote {
@@ -106,5 +110,6 @@ body {
 
 #cliff img {
   float: bottom;
-  min-width: 100%;
+  width: 100%;
+  height: auto;
 }
