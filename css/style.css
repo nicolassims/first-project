@@ -39,6 +39,7 @@ body {
 .bodyParagraph {
   margin: 2% 0 2% 0;
   line-height: 30px;
+  background-color: aqua;
 }
 
 .bodyText {
@@ -98,11 +99,14 @@ body {
   margin: 2% 2% 2% 0;
 }
 
-#comparison img {
+#comparison {
   float: right;
-  margin: 4% 0 -1% 0;
+  margin-left: -20px;
   width: 60%;
   shape-outside: url("../images/comparison.jpg");
+}
+
+#comparison img {
   height: auto;
 }
 
