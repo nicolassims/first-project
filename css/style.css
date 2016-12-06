@@ -39,7 +39,6 @@ body {
 .bodyParagraph {
   margin: 2% 0 2% 0;
   line-height: 30px;
-  background-color: aqua;
 }
 
 .bodyText {
@@ -100,19 +99,26 @@ body {
 }
 
 #comparison {
+  padding-top: 9%;
   float: right;
-  margin-left: -20px;
   width: 60%;
-  shape-outside: url("../images/comparison.jpg");
+  height: auto;
+  /*shape-outside: url("../images/comparison.jpg");*/
 }
 
 #comparison img {
+  width: 100%;
+  height: auto;
+}
+
+#xerxes {
+  float: left;
+  margin-right: 2%;
+  width: 65%;
   height: auto;
 }
 
 #xerxes img {
-  float: left;
-  margin: 5% 2% 0 0;
   width: 100%;
   height: auto;
 }
