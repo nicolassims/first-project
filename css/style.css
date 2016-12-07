@@ -51,10 +51,9 @@ body {
   border: solid 2px darkred;
   background-size: cover;
   float: left;
-  padding: 5% 3.5% 5% 3.5%;
-  margin-right: 7px;
-  text-transform: uppercase;
-  font-size: 6rem;
+  padding: 45px 30px 45px 30px;
+  margin-right: 2%;
+  font-size: 600%;
   color: white;
   background-image: url(../images/tree-of-death.jpg);
 }
@@ -99,16 +98,13 @@ body {
 }
 
 #comparison {
-  padding-top: 9%;
   float: right;
   width: 60%;
-  height: auto;
-  /*shape-outside: url("../images/comparison.jpg");*/
+  padding: 9% 0 0 2.5%;
 }
 
 #comparison img {
   width: 100%;
-  height: auto;
 }
 
 #xerxes {
